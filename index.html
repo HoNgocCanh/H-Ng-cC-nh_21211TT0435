@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h1>DAng Ki</h1>
+    <form action="http://20.92.229.217" method="post" class="needs-validation" novalidate>
+        <div>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Nhap username....."
+        class = "form-control" required pattern="[a-z0-9]{6,30}">
+        <div class="invalid-feedback">
+            Username khong hop le
+        </div>
+        
+        <div class="valid-feedback">
+            dung roi!!!
+        </div>
+    </div>
+     <div>
+    <label for="password">password:</label>
+        <input type="password" name="password" id="password" placeholder="Nhap password....."
+        class = "form-control" required pattern="[a-z0-9]{6,30}">
+        <div class="invalid-feedback">
+            passs khong hop le
+        </div>
+        <div class="valid-feedback">
+            dung roi!!!
+        </div>
+    </div>   
+    <div>   
+    <label for="phone">phone:</label>
+        <input type="number" name="phone" id="phone" placeholder="Nhap phone....."
+        class = "form-control" required pattern="[a-z0-9]{6,30}">
+        <div class="invalid-feedback">
+            phone khong hop le
+        </div>
+        <div class="valid-feedback">
+            dung roi!!!
+        </div>
+    </div> 
+        <button type="submit" class="btn btn-primary">DAng Nhap</button>
+    </form>
+    <script src="./public/js/app.js"></script>
+</div>
+
+    
+</body>
+</html>
